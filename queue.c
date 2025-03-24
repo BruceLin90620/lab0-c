@@ -42,7 +42,6 @@ int q_size(struct list_head *head)
 {
     if (!head)
         return 0;
-
     int len = 0;
     struct list_head *li;
 
