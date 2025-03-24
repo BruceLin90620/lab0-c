@@ -1268,7 +1268,6 @@ bool commit_exists(const char *commit_hash)
 
     /* Wait for the child process to finish */
     int status;
-    int i;
     waitpid(pid, &status, 0);
 
     return found;
